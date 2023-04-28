@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.section{
+   flex: 25%;
+   padding: 0 3px;
+}
+img{
+    width: 100%;
+    padding: 1px 0;
+}
+
+@media (max-width:991px){
+    .section {
+        flex: 33.3333%;
+    }
+}
+@media (max-width:657px){
+    .section {
+        flex: 50%;
+    }
+}
+@media (max-width:390px){
+    .section {
+        flex: 100%;
+    }
+}
